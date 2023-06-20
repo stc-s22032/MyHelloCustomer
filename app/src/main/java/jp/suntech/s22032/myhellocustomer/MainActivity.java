@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 String r_inputStr = r_input.getText().toString();
                 String n_inputStr = n_input.getText().toString();
 
-                r_output.setText(r_inputStr + "にお住いの");
-                n_output.setText(n_inputStr + "さん、こんにちは!");
+                r_output.setText(r_inputStr);
+                n_output.setText(n_inputStr);
             } else if (id==R.id.btrClear) {
                 r_input.setText("");
                 r_output.setText("");
